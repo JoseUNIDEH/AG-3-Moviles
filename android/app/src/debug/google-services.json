@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "207906239060",
+    "project_id": "loguin-demo",
+    "storage_bucket": "loguin-demo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:207906239060:android:f82b53279247b6713333c1",
+        "android_client_info": {
+          "package_name": "com.example.session_3_moviles"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "207906239060-ob0tpapjgoc4td345blu8leuqf7el02k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAArbH1WaHDkim4mO7j6zvL3vNyUShKnkI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "207906239060-ob0tpapjgoc4td345blu8leuqf7el02k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
