@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:firebase_auth/firebase_auth.dart';
@@ -54,7 +56,7 @@ class _HomePageState extends State<HomePage> {
   _signinButton(){
     return OutlinedButton(
       onPressed: () {
-        signWithGoogle().whenComplete((){
+        signWithGoogle().then((user){
           Navigator.of(context).push(MaterialPageRoute(builder: (context){
             return inicio();
           }));

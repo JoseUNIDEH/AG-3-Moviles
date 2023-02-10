@@ -1,33 +1,41 @@
 {
   "project_info": {
-    "project_number": "207906239060",
-    "project_id": "loguin-demo",
-    "storage_bucket": "loguin-demo.appspot.com"
+    "project_number": "783388395700",
+    "project_id": "sign-with-flutter",
+    "storage_bucket": "sign-with-flutter.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:207906239060:android:f82b53279247b6713333c1",
+        "mobilesdk_app_id": "1:783388395700:android:f41ffb4f34ee115d1a6fe1",
         "android_client_info": {
           "package_name": "com.example.session_3_moviles"
         }
       },
       "oauth_client": [
         {
-          "client_id": "207906239060-ob0tpapjgoc4td345blu8leuqf7el02k.apps.googleusercontent.com",
+          "client_id": "783388395700-0aemqdpki9b63vqi9b384ag39tn1qv27.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.session_3_moviles",
+            "certificate_hash": "a9122bee5bbc75d4978d4ce6f1bf650c59618b7b"
+          }
+        },
+        {
+          "client_id": "783388395700-ilbgpgf36g2djnotth9oo7k0e9j4c007.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAArbH1WaHDkim4mO7j6zvL3vNyUShKnkI"
+          "current_key": "AIzaSyAnel0FsU-GN18-iLjVjdQWYa7fgmP58M8"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "207906239060-ob0tpapjgoc4td345blu8leuqf7el02k.apps.googleusercontent.com",
+              "client_id": "783388395700-ilbgpgf36g2djnotth9oo7k0e9j4c007.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

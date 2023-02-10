@@ -4,10 +4,23 @@ import 'package:google_sign_in/google_sign_in.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 final FirebaseAuth _auth = FirebaseAuth.instance;
-final GoogleSignIn _googleSignIn = GoogleSignIn();
+final GoogleSignIn _googleSignIn = GoogleSignIn(scopes: [
+  'profile',
+  "email",
+]);
+//nose
 
 Future<String> signWithGoogle() async {
+
   final GoogleSignInAccount? _googleSignInAccount = await _googleSignIn.signIn();
+
+  /*final GoogleSignInAccount? _googleSignInAccount = await _googleSignIn(
+    scopes: ['email',
+      'https://www.googleapis.com/auth/userinfo.profile',],
+    hostedDomain: '',
+  );*/
+  addScopes:presentingViewController:callback:
+
   final GoogleSignInAuthentication _googleSignInAuthentication =
       await _googleSignInAccount!.authentication;
 
